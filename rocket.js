@@ -41,20 +41,19 @@
 function pyramidNumberExtension(max) {
     // code here
     for (var l=max; l>1;l--) {
-        var n = "";
+      var n = "";
         for (var m = 0; m<l; m++) {
-            n = n + l.toString();
+          n = n + l.toString();
         }
-        console.log(n);
+      console.log(n);
     }
 
     for (var i=1;i<max+1;i++) {
-        var k="";       
-         for(var j=0;j<i;j++) {
+      var k="";       
+        for(var j=0;j<i;j++) {
           k = k + i.toString();
-          }
+        }
       console.log(k);
-        
     }
 }
     

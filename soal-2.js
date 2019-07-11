@@ -22,7 +22,7 @@
 */
 
 var jenisPakaian = 'celana'; // silahkan beri nilai bebas
-var pakaianPerluDisetrika = true; // silahkan beri nilai bebas
+var pakaianPerluDisetrika = false; // silahkan beri nilai bebas
 var panjangPakaian = 21; // silahkan beri nilai bebas
 
 // code here
@@ -31,7 +31,7 @@ if (jenisPakaian === '') {
 }
 else  {
 
-    if(pakaianPerluDisetrika == false) {
+    if(pakaianPerluDisetrika === false) {
         console.log("Silahkan pilih pakaian yang ingin disetrika");
     }
 

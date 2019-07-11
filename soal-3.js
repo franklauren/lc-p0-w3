@@ -35,11 +35,9 @@ var max=5; // silahkan beri nilai bebas
 
 // code here
 for (var i=1;i<max+1;i++) {
-    var k="";
-   
-     for(var j=0;j<i;j++) {
+  var k="";
+    for(var j=0;j<i;j++) {
       k = k + i.toString();
-      }
+    }
   console.log(k);
-    
 }
